@@ -13,5 +13,10 @@ export default {
     example: "You have {money} million",
     myRooms: "My rooms",
     stats: "Stats",
+    language: "Language",
+    device: "Device",
+    value: "Value",
+    graphTit: "Power usage (KwH) - Today",
+    charging: "Loading...",
   },
 };

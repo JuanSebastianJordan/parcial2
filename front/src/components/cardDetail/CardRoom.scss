@@ -1,33 +1,20 @@
-.card-home2{
+.card-home{
     display: flex;
     justify-content: space-between;
     width: 13rem;
-    min-height: 12rem;
+    min-height: 17rem;
     padding: 0.7rem;
     box-shadow: 2px 2px #b6b6b6;
     &:not(:first-child){
       margin-left: .625rem
     }
-    &-img{
-      &-link{
-        text-align: center;
-      }
-      &-top{
-        height: 5rem;
-        width: 5rem!important;
-        &.loft{
-          width: 3rem!important;
-        }
-      }
-    }
-  
     &-body{
       display: flex;
       justify-content: space-between;
       flex-direction: row;
       flex: 1;
       margin-top: 10px;
-      &-description{
+      &-title{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -41,4 +28,17 @@
         font-size: 0.8rem;
       }
     }
+    &-img{
+      &-link{
+        text-align: center;
+      }
+      &-top{
+        height: 12rem;
+        width: 12rem!important;
+        &.loft{
+          width: 12rem!important;
+        }
+      }
+    }
+  
 }
